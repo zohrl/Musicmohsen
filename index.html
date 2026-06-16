@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>استودیو محسن | پلی‌بک حرفه‌ای</title>
+    <meta
+      name="description"
+      content="استودیو محسن، تولید پلی‌بک‌های حرفه‌ای برای اجرا، تمرین و خوانندگی."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="player.js" defer></script>
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav" aria-label="ناوبری اصلی">
+        <a class="brand" href="#home" aria-label="استودیو محسن">
+          <svg class="brand-mark" viewBox="0 0 76 44" role="img" aria-label="لوگوی استودیو محسن">
+            <path class="mark-m" d="M8 36V8L25 30L38 10L51 30L68 8V36" />
+            <path class="wave" d="M18 23C22 18 26 18 30 23S38 28 42 23S50 18 56 23" />
+          </svg>
+          <span>استودیو محسن</span>
+        </a>
+        <div class="nav-links">
+          <a href="#about">درباره</a>
+          <a href="#tracks">پلی‌بک‌ها</a>
+          <a href="#request">درخواست</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">تولید موسیقی، پلی‌بک و خدمات صوتی</p>
+        <h1>استودیو محسن</h1>
+        <p class="hero-subtitle">پلی‌بک‌های حرفه‌ای برای اجرا، تمرین و خوانندگی</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#tracks">مشاهده پلی‌بک‌ها</a>
+          <a class="button secondary" href="#request">درخواست پلی‌بک اختصاصی</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">تجربه و تخصص</p>
+          <h2>درباره محسن</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              محسن، فعال در حوزه موسیقی و تولید آثار صوتی با سابقه نوازندگی و فعالیت حرفه‌ای
+              در زمینه‌های:
+            </p>
+            <ul class="expertise-list">
+              <li>نوازندگی تنبک</li>
+              <li>نوازندگی نی‌انبان</li>
+              <li>آهنگسازی</li>
+              <li>میکس و مسترینگ</li>
+            </ul>
+            <p>همکاری و فعالیت آموزشی در آموزشگاه موسیقی نیلوفرانه.</p>
+            <p>
+              هدف استودیو محسن ارائه پلی‌بک‌های باکیفیت، تولید موسیقی و خدمات تخصصی صوتی
+              برای خوانندگان، نوازندگان و علاقه‌مندان موسیقی است.
+            </p>
+          </div>
+          <div class="studio-panel" aria-label="خدمات استودیو">
+            <span>Playback</span>
+            <span>Mix</span>
+            <span>Master</span>
+            <span>Compose</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tracks" id="tracks">
+        <div class="section-heading">
+          <p class="eyebrow">نمونه پلی‌بک‌ها</p>
+          <h2>پلی‌بک‌های منتخب</h2>
+        </div>
+        <div class="track-grid">
+          <article class="track-card">
+            <div class="artwork">
+              <span class="artwork-line"></span>
+              <span class="artwork-line short"></span>
+            </div>
+            <div class="track-info">
+              <span class="badge">دمو</span>
+              <h3>بی‌احساس</h3>
+              <p>شادمهر عقیلی</p>
+            </div>
+            <div class="audio-player" data-audio="assets/audio/bi-ehsas.mp3">
+              <button class="play-button" type="button" aria-label="پخش بی‌احساس">
+                <span class="play-icon"></span>
+              </button>
+              <div class="player-main">
+                <div class="player-meta">
+                  <span>پیش‌نمایش پلی‌بک</span>
+                  <time>0:00</time>
+                </div>
+                <input class="progress" type="range" value="0" min="0" max="100" step="0.1" aria-label="پیشرفت پخش" />
+              </div>
+            </div>
+          </article>
+
+          <article class="track-card">
+            <div class="artwork">
+              <span class="artwork-line"></span>
+              <span class="artwork-line short"></span>
+            </div>
+            <div class="track-info">
+              <span class="badge">دمو</span>
+              <h3>سارا نائینی</h3>
+              <p>پلی‌بک اختصاصی</p>
+            </div>
+            <div class="audio-player" data-audio="assets/audio/sara-naeini.mp3">
+              <button class="play-button" type="button" aria-label="پخش سارا نائینی">
+                <span class="play-icon"></span>
+              </button>
+              <div class="player-main">
+                <div class="player-meta">
+                  <span>پیش‌نمایش پلی‌بک</span>
+                  <time>0:00</time>
+                </div>
+                <input class="progress" type="range" value="0" min="0" max="100" step="0.1" aria-label="پیشرفت پخش" />
+              </div>
+            </div>
+          </article>
+
+          <article class="track-card">
+            <div class="artwork">
+              <span class="artwork-line"></span>
+              <span class="artwork-line short"></span>
+            </div>
+            <div class="track-info">
+              <span class="badge">دمو</span>
+              <h3>مهدی یراحی</h3>
+              <p>پلی‌بک اختصاصی</p>
+            </div>
+            <div class="audio-player" data-audio="assets/audio/mehdi-yarrahi.mp3">
+              <button class="play-button" type="button" aria-label="پخش مهدی یراحی">
+                <span class="play-icon"></span>
+              </button>
+              <div class="player-main">
+                <div class="player-meta">
+                  <span>پیش‌نمایش پلی‌بک</span>
+                  <time>0:00</time>
+                </div>
+                <input class="progress" type="range" value="0" min="0" max="100" step="0.1" aria-label="پیشرفت پخش" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="request-band" id="request">
+        <div>
+          <p class="eyebrow">درخواست اختصاصی</p>
+          <h2>آهنگ موردنظر خود را پیدا نکردید؟</h2>
+          <p>
+            نام خواننده و آهنگ موردنظر خود را برای ما ارسال کنید تا امکان ساخت پلی‌بک آن
+            بررسی شود.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:info@example.com?subject=درخواست پلی‌بک">ثبت درخواست</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <strong>استودیو محسن</strong>
+      <span>تمامی حقوق محفوظ است.</span>
+    </footer>
+  </body>
+</html>
